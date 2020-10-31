@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "esNext",
+        "target": "es5",
+        "moduleResolution": "node",
+        "allowJs": true,
+        "jsx": "react",
+        "allowSyntheticDefaultImports": true,
+        "outDir": "/dist"
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "types": [
+        "babylonjs"
+    ],
+    "exclude": [
+        "node_modules",
+    ]
+  }
