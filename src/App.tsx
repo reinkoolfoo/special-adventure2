@@ -7,6 +7,7 @@ import game from './game'
 const history = createBrowserHistory();
 class App extends Component {
   render() {
+    
     return (
       <Router history={history}>
         <Switch>
