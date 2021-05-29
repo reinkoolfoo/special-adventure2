@@ -10,6 +10,7 @@ class App extends Component {
     return (
       <Router history={history}>
         <Switch>
+          {/* @ts-ignore */}
           <Route exact path="/" component={()=>game} />
           {/* <Route path="/bye" component={buzz} /> */}
         </Switch>

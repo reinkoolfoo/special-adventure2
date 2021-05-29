@@ -55,6 +55,7 @@ scene.actionManager.registerAction(new ExecuteCodeAction(ActionManager.OnKeyDown
 }));
 
 player.size = 1
+//@ts-ignore
 player.invertU = -1
 player.width = 1
 player.height = 1

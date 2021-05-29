@@ -1,7 +1,4 @@
 import './css/style.css'
-import ReactDOM from 'react-dom'
-import React from 'react'
-import App from './App';
 import game from './game'
 const foo = { msg: 'hi' }
 // Needed for Hot Module Replacement

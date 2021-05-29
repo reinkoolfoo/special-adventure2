@@ -1,20 +1,33 @@
 {
-    "compilerOptions": {
-        "module": "esNext",
-        "target": "es5",
-        "moduleResolution": "node",
-        "allowJs": true,
-        "jsx": "react",
-        "allowSyntheticDefaultImports": true,
-        "outDir": "/dist"
-    },
-    "include": [
-        "src/**/*"
+  "compilerOptions": {
+    "module": "esNext",
+    "target": "es5",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "outDir": "/dist",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
     ],
-    "types": [
-        "babylonjs"
-    ],
-    "exclude": [
-        "node_modules",
-    ]
-  }
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "types": [
+    "babylonjs"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
